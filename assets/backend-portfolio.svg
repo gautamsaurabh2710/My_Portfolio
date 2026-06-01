@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Backend developer portfolio illustration</title>
+  <desc id="desc">A dark portfolio webpage preview with backend skill chips and server themed project cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07120f"/>
+      <stop offset=".55" stop-color="#123127"/>
+      <stop offset="1" stop-color="#0a1d18"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#b8ff5c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="520" rx="34" fill="url(#bg)"/>
+  <path d="M0 92H900M0 184H900M0 276H900M0 368H900M100 0V520M220 0V520M340 0V520M460 0V520M580 0V520M700 0V520M820 0V520" stroke="#b8ff5c" stroke-opacity=".08" stroke-width="2"/>
+
+  <rect x="64" y="62" width="772" height="396" rx="24" fill="#081713" stroke="#e9fff6" stroke-width="4"/>
+  <rect x="64" y="62" width="772" height="68" rx="24" fill="#0d1f1a"/>
+  <circle cx="112" cy="96" r="19" fill="#b8ff5c"/>
+  <text x="104" y="104" fill="#07120f" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">P</text>
+  <text x="154" y="105" fill="#e9fff6" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Backend Portfolio</text>
+
+  <rect x="106" y="170" width="340" height="28" rx="8" fill="#e9fff6"/>
+  <rect x="106" y="214" width="438" height="28" rx="8" fill="#e9fff6"/>
+  <rect x="106" y="258" width="304" height="28" rx="8" fill="#e9fff6"/>
+  <rect x="106" y="324" width="104" height="42" rx="21" fill="url(#chip)"/>
+  <rect x="232" y="324" width="104" height="42" rx="21" fill="#b8ff5c"/>
+
+  <rect x="586" y="170" width="192" height="220" rx="18" fill="#0d1f1a" stroke="#34d399" stroke-width="4"/>
+  <rect x="616" y="206" width="132" height="12" rx="6" fill="#34d399"/>
+  <rect x="616" y="250" width="106" height="12" rx="6" fill="#b8ff5c"/>
+  <rect x="616" y="294" width="142" height="12" rx="6" fill="#5eead4"/>
+  <rect x="616" y="338" width="88" height="12" rx="6" fill="#ff7a59"/>
+
+  <g fill="#0d1f1a" stroke="#e9fff6" stroke-width="3">
+    <rect x="106" y="404" width="170" height="34" rx="12"/>
+    <rect x="294" y="404" width="170" height="34" rx="12"/>
+    <rect x="482" y="404" width="170" height="34" rx="12"/>
+  </g>
+  <text x="137" y="428" fill="#b8ff5c" font-family="Consolas, monospace" font-size="18" font-weight="700">REST APIs</text>
+  <text x="333" y="428" fill="#5eead4" font-family="Consolas, monospace" font-size="18" font-weight="700">Golang</text>
+  <text x="520" y="428" fill="#34d399" font-family="Consolas, monospace" font-size="18" font-weight="700">Docker</text>
+</svg>
